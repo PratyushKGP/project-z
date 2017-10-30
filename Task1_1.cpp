@@ -3,6 +3,7 @@
 #include <opencv2/opencv.hpp>
 #include<math.h>
 #include<queue>
+#include<stack>
 
 using namespace std;
 using namespace cv;
@@ -12,6 +13,9 @@ struct cord
 {
   Point pos;
   long int priority;
+  int a,b;
+  a++;
+  b++;
   cord *parent;
 }*curr, *next;
 
