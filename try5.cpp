@@ -9,6 +9,7 @@ using namespace std;
 typedef struct
 {
   int x;
+  int s=0;
   int y;
 }coordi;
 
@@ -24,7 +25,7 @@ Mat image;
 int a[100],b[100];
 int k=0,z=0,c=0,d=0;
 int n, sum1=0, sum2=0;
-
+cout<<"removing init value";
 void init()
 {
     start_node.position.x = 0;
